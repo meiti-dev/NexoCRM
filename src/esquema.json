@@ -1,0 +1,122 @@
+{
+  "requiere_login": true,
+  "tema": {
+    "colorPrimario": "#2563EB",
+    "colorSecundario": "#059669",
+    "fondo": "#F8FAFC",
+    "superficie": "#FFFFFF",
+    "texto": "#0F172A"
+  },
+  "navegacion": {
+    "tipo": "tabs_inferior"
+  },
+  "paginas": [
+    {
+      "id": "panel",
+      "titulo": "Panel",
+      "icono": "fa-chart-pie",
+      "componentes": [
+        {
+          "tipo": "NexoCRM_muuwzbs7__CRM_DashboardResumen",
+          "col_span": 12
+        },
+        {
+          "tipo": "NexoCRM_muuwzbs7__CRM_SemillaCatalogos",
+          "col_span": 12
+        }
+      ],
+      "descripcion": "Métricas de ventas ganadas contra meta, valor total del embudo por etapa, cierres del mes y actividades vencidas"
+    },
+    {
+      "id": "embudo",
+      "titulo": "Embudo",
+      "icono": "fa-filter",
+      "componentes": [
+        {
+          "tipo": "NexoCRM_muuwzbs7__CRM_EmbudoKanban",
+          "col_span": 12
+        }
+      ],
+      "descripcion": "Columnas por etapa del proceso comercial con tarjetas de oportunidades para moverlas y filtrar por vendedor"
+    },
+    {
+      "id": "oportunidad",
+      "titulo": "Oportunidades",
+      "icono": "fa-bullseye",
+      "componentes": [
+        {
+          "tipo": "NexoCRM_muuwzbs7__CRM_GestorOportunidades",
+          "col_span": 12
+        }
+      ],
+      "descripcion": "Ficha completa de la oportunidad con datos clave, notas y línea de tiempo de actividades"
+    },
+    {
+      "id": "contactos",
+      "titulo": "Contactos",
+      "icono": "fa-address-book",
+      "componentes": [
+        {
+          "tipo": "NexoCRM_muuwzbs7__CRM_GestorContactos",
+          "col_span": 12
+        }
+      ],
+      "descripcion": "Directorio y ficha de contactos con cargo, empresa, datos de comunicación y oportunidades relacionadas"
+    },
+    {
+      "id": "empresas",
+      "titulo": "Empresas",
+      "icono": "fa-building",
+      "componentes": [
+        {
+          "tipo": "NexoCRM_muuwzbs7__CRM_GestorEmpresas",
+          "col_span": 12
+        }
+      ],
+      "descripcion": "Directorio de empresas con rubro, tamaño, contactos asociados y estado de sus oportunidades"
+    },
+    {
+      "id": "configuracion",
+      "titulo": "Configuración",
+      "icono": "fa-gear",
+      "rol": "admin",
+      "componentes": [
+        {
+          "tipo": "BASE__Configuracion",
+          "col_span": 12
+        }
+      ]
+    },
+    {
+      "id": "actividades",
+      "titulo": "Actividades",
+      "icono": "fa-calendar-check",
+      "componentes": [
+        {
+          "tipo": "NexoCRM_muuwzbs7__CRM_AgendaActividades",
+          "col_span": 12
+        },
+        {
+          "tipo": "NexoCRM_muuwzbs7__CRM_GestorActividades",
+          "col_span": 12
+        }
+      ],
+      "descripcion": "Registro de llamadas, reuniones y correos con próximos pasos y pendientes organizados por vendedor"
+    },
+    {
+      "id": "catalogos",
+      "titulo": "Catálogos",
+      "icono": "fa-tags",
+      "componentes": [
+        {
+          "tipo": "NexoCRM_muuwzbs7__CRM_GestorCatalogos",
+          "col_span": 12
+        }
+      ],
+      "descripcion": "Configuración de etapas del embudo, tipos de actividad, rubros y motivos de pérdida"
+    }
+  ],
+  "estilo_layout": "app",
+  "es_industrial": false,
+  "estilo_visual": "denso"
+}

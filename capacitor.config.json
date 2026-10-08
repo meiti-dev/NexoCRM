@@ -1,0 +1,11 @@
+{
+  "appId": "dev.meiti.export.nexocrm_muuwzbs7",
+  "appName": "NexoCRM",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  },
+  "android": {
+    "webContentsDebuggingEnabled": false
+  }
+}
