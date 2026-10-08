@@ -1,6 +1,14 @@
 {
   "revisar": [
-    "src/fabrica/diccionario/**"
+    "server/moldes/NexoCRM_muuwzbs7__CRM_DashboardResumen.jsx",
+    "server/moldes/NexoCRM_muuwzbs7__CRM_EmbudoKanban.jsx",
+    "server/moldes/NexoCRM_muuwzbs7__CRM_GestorOportunidades.jsx",
+    "server/moldes/NexoCRM_muuwzbs7__CRM_GestorContactos.jsx",
+    "server/moldes/NexoCRM_muuwzbs7__CRM_GestorEmpresas.jsx",
+    "server/moldes/NexoCRM_muuwzbs7__CRM_SemillaCatalogos.jsx",
+    "server/moldes/NexoCRM_muuwzbs7__CRM_AgendaActividades.jsx",
+    "server/moldes/NexoCRM_muuwzbs7__CRM_GestorActividades.jsx",
+    "server/moldes/NexoCRM_muuwzbs7__CRM_GestorCatalogos.jsx"
   ],
   "vulnerabilidades_aceptadas": [
     {
